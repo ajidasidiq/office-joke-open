@@ -3,7 +3,11 @@
 
 Emits one original one-line joke about office life. The grader reads
 exactly /output/entry.txt, so this script's only job is to place that
-line there, byte for byte, and refuse to run if it would break the gate.
+line there, byte for byte, and refuse to run if it would break the gate
+(1-200 chars, one line, not only whitespace). The joke itself takes the
+most tired piece of management advice literally: "think outside the
+box" becomes a desk in the hallway, and the payoff is the one perk
+every office worker actually wants.
 """
 
 from pathlib import Path
